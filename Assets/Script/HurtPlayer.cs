@@ -1,0 +1,33 @@
+using UnityEngine;
+
+public class HurtPlayer : MonoBehaviour
+{
+    public int damageToGive;
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.name == "Player")
+        {
+            HealthManager.GiveDamage(damageToGive);
+
+            var player = other.GetComponent<Controller>();
+            player.knockBackCounter = player.knockBackLength;
+            if (other.transform.position.x < transform.position.x)
+            {
+                player.knockFromRight = true;
+            }
+            else player.knockFromRight = false;
+        }
+    }
+}
