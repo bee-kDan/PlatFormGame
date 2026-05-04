@@ -13,12 +13,18 @@ public class HealthManager : MonoBehaviour
     private LevelManager levelManager;
     TMP_Text text;
 
+    private LifeManager lifeManager;
+
     void Start()
     {
         text = GetComponent<TMP_Text>();
+
         PlayerHealth = PlayerMaxHealth;
 
-        levelManager = FindAnyObjectByType<LevelManager>();
+        levelManager = FindAnyObjectByType<LevelManager>(); 
+
+        lifeManager = FindAnyObjectByType<LifeManager>();
+
         isDead = false;
     }
     private void Update()
@@ -27,6 +33,7 @@ public class HealthManager : MonoBehaviour
         {   
             PlayerHealth = 0;
             levelManager.RespawnPlayer();
+            lifeManager.MinusLife();
             isDead = true;
         }
         text.text = "" + PlayerHealth;
