@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "E:\\Project\\PlatForm\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\project\\platform\\assets\\script\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\project\\platform\\assets\\script\\ladderzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\ladderzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\project\\platform\\assets\\script\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\project\\platform\\assets\\script\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\project\\platform\\assets\\script\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\project\\platform\\assets\\script\\banana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -75,6 +79,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\Controller.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Controller.cs",
+              "ToolTip": "E:\\Project\\PlatForm\\Assets\\Script\\Controller.cs",
+              "RelativeToolTip": "Assets\\Script\\Controller.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-18T08:47:45.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LadderZone.cs",
+              "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\LadderZone.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\LadderZone.cs",
+              "ToolTip": "E:\\Project\\PlatForm\\Assets\\Script\\LadderZone.cs",
+              "RelativeToolTip": "Assets\\Script\\LadderZone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T03:55:44.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MovingPlatform.cs",
               "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\MovingPlatform.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\MovingPlatform.cs",
@@ -87,20 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\MainMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\MainMenu.cs",
-              "ToolTip": "E:\\Project\\PlatForm\\Assets\\Script\\MainMenu.cs",
-              "RelativeToolTip": "Assets\\Script\\MainMenu.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-27T13:34:48.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "LifeManager.cs",
               "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\LifeManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\LifeManager.cs",
@@ -108,12 +125,11 @@
               "RelativeToolTip": "Assets\\Script\\LifeManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T13:08:39.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T13:08:39.777Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ScoreManager.cs",
               "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\ScoreManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ScoreManager.cs",
@@ -121,12 +137,11 @@
               "RelativeToolTip": "Assets\\Script\\ScoreManager.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAgwCkAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T10:15:15.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-18T10:15:15.837Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "HealthManager.cs",
               "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\HealthManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\HealthManager.cs",
@@ -134,12 +149,11 @@
               "RelativeToolTip": "Assets\\Script\\HealthManager.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwA8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T13:14:29.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T13:14:29.029Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "LifePickUp.cs",
               "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\LifePickUp.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\LifePickUp.cs",
@@ -147,12 +161,11 @@
               "RelativeToolTip": "Assets\\Script\\LifePickUp.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-04T13:51:42.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-04T13:51:42.227Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "LevelLoader.cs",
               "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\LevelLoader.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\LevelLoader.cs",
@@ -164,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "NewMonoBehaviourScript.cs",
               "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\NewMonoBehaviourScript.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\NewMonoBehaviourScript.cs",
@@ -175,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CheckPoint.cs",
               "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\CheckPoint.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\CheckPoint.cs",
@@ -187,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "CoinPickup.cs",
               "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\CoinPickup.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\CoinPickup.cs",
@@ -199,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "KillPlayer.cs",
               "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\KillPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\KillPlayer.cs",
@@ -211,7 +224,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\MainMenu.cs",
+              "ToolTip": "E:\\Project\\PlatForm\\Assets\\Script\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\Script\\MainMenu.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T13:34:48.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PauseMenu.cs",
@@ -223,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "LevelManager.cs",
               "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\LevelManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\LevelManager.cs",
@@ -235,19 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Controller.cs",
-              "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\Controller.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Controller.cs",
-              "ToolTip": "E:\\Project\\PlatForm\\Assets\\Script\\Controller.cs",
-              "RelativeToolTip": "Assets\\Script\\Controller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T08:47:45.222Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Banana.cs",
               "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\Banana.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Banana.cs",

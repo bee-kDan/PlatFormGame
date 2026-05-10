@@ -186,5 +186,12 @@ public class Controller : MonoBehaviour
     public void eraseKnockBack()
     {
         knockBackCounter = 0;
-    }    
+    }
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.transform.tag == "MovingPlatForm")
+        {
+            transform.parent = other.transform;
+        }
+    }
 }

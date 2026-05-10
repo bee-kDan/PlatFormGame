@@ -19,6 +19,7 @@ public class LifeManager : MonoBehaviour
     public string mainMenu;
 
     public float waitAfterGameOver;
+    
     void Start()
     {
         theText = GetComponent<TMP_Text>();
