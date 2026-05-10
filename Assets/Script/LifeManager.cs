@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class LifeManager : MonoBehaviour
 {
-    public int staringLives;
+    //public int staringLives;
 
     private int liveCounter;
 
@@ -23,7 +23,7 @@ public class LifeManager : MonoBehaviour
     {
         theText = GetComponent<TMP_Text>();
 
-        liveCounter = staringLives;
+        liveCounter = PlayerPrefs.GetInt("PlayerCurrentLives");
 
         player = FindAnyObjectByType<Controller>();
 
@@ -51,9 +51,11 @@ public class LifeManager : MonoBehaviour
     public void ExtraLife()
     {
         liveCounter +=1;
+        PlayerPrefs.SetInt("PlayerCurrentLives", liveCounter);
     }
     public void MinusLife()
     {
         liveCounter -=1;
+        PlayerPrefs.SetInt("PlayerCurrentLives", liveCounter);
     }
 }

@@ -16,6 +16,12 @@ public class Controller : MonoBehaviour
     public float groundCheckRadius;
     public LayerMask groundLayer;
 
+    public bool onLadder;
+    public float climpSpeed;
+    private float climpVelocity;
+    private float gravityStore;
+
+
     Rigidbody2D rb;
     Animator anim;
 
@@ -53,6 +59,7 @@ public class Controller : MonoBehaviour
         anim = GetComponent<Animator>();
         rb.freezeRotation = true;
         defaultGravityScale = rb.gravityScale;
+        gravityStore = rb.gravityScale;
     }
 
     void Update()
@@ -158,6 +165,17 @@ public class Controller : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse1))
         {
             Instantiate(banana, attackPoint.position, attackPoint.rotation);
+        }
+        if (onLadder)
+        {
+            rb.gravityScale = 0f;
+
+            climpVelocity = climpSpeed * Input.GetAxisRaw("Vertical");
+            rb.linearVelocity = new Vector2(rb.linearVelocityX, climpVelocity);
+        }
+        if (!onLadder)
+        {
+            rb.gravityScale = gravityStore;
         }
     }
     private void ResetAttack()

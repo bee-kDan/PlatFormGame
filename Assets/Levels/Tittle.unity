@@ -377,6 +377,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu
   StartLevel: Level1
   LevelSelect: LevelSelect
+  playerLives: 3
+  playerHealth: 3
 --- !u!1 &573330056
 GameObject:
   m_ObjectHideFlags: 0

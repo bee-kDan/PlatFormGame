@@ -19,7 +19,8 @@ public class HealthManager : MonoBehaviour
     {
         text = GetComponent<TMP_Text>();
 
-        PlayerHealth = PlayerMaxHealth;
+        //PlayerHealth = PlayerMaxHealth;
+        PlayerHealth = PlayerPrefs.GetInt("PlayerCurrentHealth");
 
         levelManager = FindAnyObjectByType<LevelManager>(); 
 
@@ -42,10 +43,12 @@ public class HealthManager : MonoBehaviour
     public static void GiveDamage(int damageAmount)
     {
         PlayerHealth -= damageAmount;
+        PlayerPrefs.SetInt("PlayerCurrentHealth", PlayerHealth);
     }   
     public void FullHealth()
     {
         PlayerHealth = PlayerMaxHealth;
+        PlayerPrefs.SetInt("PlayerCurrentHealth", PlayerHealth);
     }
 }
     

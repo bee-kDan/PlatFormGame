@@ -18,7 +18,7 @@ public class ScoreManager : MonoBehaviour
             Debug.LogError("ScoreManager: No TMP_Text component found on the GameObject.");
         }
 
-        score = 0;
+        score = PlayerPrefs.GetInt("CurrentPlayerScore", 0);
     }
 
     // Update is called once per frame
@@ -34,13 +34,16 @@ public class ScoreManager : MonoBehaviour
     public static void AddPoints(int points)
     {
         score += points;
+        PlayerPrefs.SetInt("CurrentPlayerScore", score);
     }
     public static void SubtractPoints(int points)
     {
         score -= points;
+        PlayerPrefs.SetInt("CurrentPlayerScore", score);
     }
     public static void ResetScore()
     {
         score = 0;
+        PlayerPrefs.SetInt("CurrentPlayerScore", score);
     }
 }
