@@ -64,7 +64,6 @@ public class Controller : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("isGrounded: " + isGrounded);
         wasGrounded = isGrounded;
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 

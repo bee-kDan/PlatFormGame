@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "E:\\Project\\PlatForm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\project\\platform\\assets\\script\\lifemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\lifemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\project\\platform\\assets\\script\\orange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\orange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\project\\platform\\assets\\script\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\project\\platform\\assets\\script\\shootatplayerinrange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\shootatplayerinrange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\project\\platform\\assets\\script\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\project\\platform\\assets\\script\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\timemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\project\\platform\\assets\\script\\lifemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\lifemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\project\\platform\\assets\\script\\healthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\healthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\project\\platform\\assets\\script\\banana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\banana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|e:\\project\\platform\\assets\\script\\hurtplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\hurtplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -36,7 +52,7 @@
               "RelativeDocumentMoniker": "Assets\\Script\\Controller.cs",
               "ToolTip": "E:\\Project\\PlatForm\\Assets\\Script\\Controller.cs",
               "RelativeToolTip": "Assets\\Script\\Controller.cs",
-              "ViewState": "AgIAAKYAAAAAAAAAAAAgwMQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-18T08:47:45.222Z",
               "IsPinned": true,
@@ -45,6 +61,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ShootAtPlayerInRange.cs",
+              "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\ShootAtPlayerInRange.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ShootAtPlayerInRange.cs",
+              "ToolTip": "E:\\Project\\PlatForm\\Assets\\Script\\ShootAtPlayerInRange.cs",
+              "RelativeToolTip": "Assets\\Script\\ShootAtPlayerInRange.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAADkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:42:34.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HurtPlayer.cs",
+              "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\HurtPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\HurtPlayer.cs",
+              "ToolTip": "E:\\Project\\PlatForm\\Assets\\Script\\HurtPlayer.cs",
+              "RelativeToolTip": "Assets\\Script\\HurtPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:31:20.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Banana.cs",
+              "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\Banana.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Banana.cs",
+              "ToolTip": "E:\\Project\\PlatForm\\Assets\\Script\\Banana.cs",
+              "RelativeToolTip": "Assets\\Script\\Banana.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:15:19.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Orange.cs",
+              "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\Orange.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Orange.cs",
+              "ToolTip": "E:\\Project\\PlatForm\\Assets\\Script\\Orange.cs",
+              "RelativeToolTip": "Assets\\Script\\Orange.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T14:15:10.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TimeManager.cs",
               "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\TimeManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\TimeManager.cs",
@@ -57,26 +125,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "LifeManager.cs",
               "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\LifeManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\LifeManager.cs",
               "ToolTip": "E:\\Project\\PlatForm\\Assets\\Script\\LifeManager.cs",
               "RelativeToolTip": "Assets\\Script\\LifeManager.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBgAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-10T10:06:50.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "HealthManager.cs",
               "DocumentMoniker": "E:\\Project\\PlatForm\\Assets\\Script\\HealthManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\HealthManager.cs",
               "ToolTip": "E:\\Project\\PlatForm\\Assets\\Script\\HealthManager.cs",
               "RelativeToolTip": "Assets\\Script\\HealthManager.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCEAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-10T10:02:25.906Z",
               "EditorCaption": ""

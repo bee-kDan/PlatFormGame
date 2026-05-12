@@ -48,7 +48,12 @@ public class HealthManager : MonoBehaviour
     {
         PlayerHealth -= damageAmount;
         PlayerPrefs.SetInt("PlayerCurrentHealth", PlayerHealth);
-    }   
+    }
+    public void GiveDamageFromBullet(int damageAmount)
+    {
+        PlayerHealth -= damageAmount;
+        PlayerPrefs.SetInt("PlayerCurrentHealth", PlayerHealth);
+    }
     public void FullHealth()
     {
         PlayerHealth = PlayerMaxHealth;

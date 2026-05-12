@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Banana.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\Script\ShootAtPlayerInRange.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Script\LifeManager.cs" />
@@ -105,6 +106,7 @@
     <Compile Include="Assets\Script\HurtPlayer.cs" />
     <Compile Include="Assets\Script\CameraController.cs" />
     <Compile Include="Assets\Script\LadderZone.cs" />
+    <Compile Include="Assets\Script\Orange.cs" />
     <Compile Include="Assets\Script\EnemyHealthManager.cs" />
     <Compile Include="Assets\Script\MovingPlatform.cs" />
   </ItemGroup>

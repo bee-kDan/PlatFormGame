@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2141810094003599268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7321756014401425720}
+  m_Layer: 11
+  m_Name: LaunchPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7321756014401425720
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141810094003599268}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.913, y: -0.312, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7319996620378312358}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2513206378085888208
 GameObject:
   m_ObjectHideFlags: 0
@@ -17,8 +48,9 @@ GameObject:
   - component: {fileID: 5396130399576198320}
   - component: {fileID: 4849668940038182131}
   - component: {fileID: 920937946218709386}
+  - component: {fileID: 3196689185053205598}
   m_Layer: 11
-  m_Name: Enemy_Frog (1)
+  m_Name: Enemy_Frog
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38,6 +70,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5139024679293740486}
+  - {fileID: 7321756014401425720}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1003537119013072492
@@ -278,6 +311,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HurtPlayer
   damageToGive: 1
+--- !u!114 &3196689185053205598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2513206378085888208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adcceeffd34cd37489aca82138676822, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShootAtPlayerInRange
+  playerRange: 10
+  enemyStar: {fileID: 8984823972453017149, guid: 3f8e5b661b4aed7449001c4a5b9f188f, type: 3}
+  player: {fileID: 0}
+  launchPoint: {fileID: 7321756014401425720}
+  shootCounter: 0
+  waitBetweenShots: 2
 --- !u!1 &6921795630797268877
 GameObject:
   m_ObjectHideFlags: 0
